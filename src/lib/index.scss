@@ -1,0 +1,48 @@
+div,span,body,li,ul,a,input,textarea{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+#fptia{
+  .buttonPanel{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100vw;
+    background-color: #cccccc;
+    border: 1vw solid #fff;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    z-index: 9999;
+  }
+  .clearButton{
+    color: #ffffff;
+    font-size: 4vw;
+  }
+  .infoPanel{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6588235294117647);
+    padding: 4vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 99999;
+    overflow: auto;
+    ul{
+      li{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 4vw;
+        color: red;
+        border-bottom: 1px solid #cccccc;
+      }
+      li.log{
+        color: #ffffff;
+      }
+    }
+  }
+}
